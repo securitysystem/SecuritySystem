@@ -1,0 +1,17 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" x:Class="Security_System_Manager.MainPage"
+    mc:Ignorable="d"
+    d:DesignHeight="600" d:DesignWidth="1000">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid HorizontalAlignment="Left" Height="448" Margin="60,107,0,0" VerticalAlignment="Top" Width="887">
+            <sdk:Label x:Name="label" HorizontalAlignment="Left" Height="28" Margin="41,51,0,0" VerticalAlignment="Top" Width="136" Content="Actions" FontSize="21.333" HorizontalContentAlignment="Center"/>
+            <HyperlinkButton Content="Flash LED" HorizontalAlignment="Left" Margin="41,84,0,0" VerticalAlignment="Top" Background="{x:Null}" NavigateUri="http://securitysystem.local/securitysystem/ledon.php"/>
+        </Grid>
+
+    </Grid>
+</UserControl>

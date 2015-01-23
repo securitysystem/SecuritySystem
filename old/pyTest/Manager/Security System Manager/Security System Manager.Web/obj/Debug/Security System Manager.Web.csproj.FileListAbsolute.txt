@@ -1,0 +1,6 @@
+P:\Security System\Manager\Security System Manager\Security System Manager.Web\bin\Security System Manager.Web.dll.config
+P:\Security System\Manager\Security System Manager\Security System Manager.Web\bin\Security System Manager.Web.dll
+P:\Security System\Manager\Security System Manager\Security System Manager.Web\bin\Security System Manager.Web.pdb
+P:\Security System\Manager\Security System Manager\Security System Manager.Web\obj\Debug\Security System Manager.Web.csprojResolveAssemblyReference.cache
+P:\Security System\Manager\Security System Manager\Security System Manager.Web\obj\Debug\Security System Manager.Web.dll
+P:\Security System\Manager\Security System Manager\Security System Manager.Web\obj\Debug\Security System Manager.Web.pdb

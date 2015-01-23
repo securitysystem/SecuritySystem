@@ -1,0 +1,8 @@
+P:\Security System\Control Panel\Control Panel 1.0\Control Panel 1.0\bin\Debug\Control Panel 1.0.exe
+P:\Security System\Control Panel\Control Panel 1.0\Control Panel 1.0\bin\Debug\Control Panel 1.0.pdb
+P:\Security System\Control Panel\Control Panel 1.0\Control Panel 1.0\obj\Debug\Control Panel 1.0.csprojResolveAssemblyReference.cache
+P:\Security System\Control Panel\Control Panel 1.0\Control Panel 1.0\obj\Debug\Control_Panel_1._0.CPInterface.resources
+P:\Security System\Control Panel\Control Panel 1.0\Control Panel 1.0\obj\Debug\Control_Panel_1._0.Properties.Resources.resources
+P:\Security System\Control Panel\Control Panel 1.0\Control Panel 1.0\obj\Debug\Control Panel 1.0.csproj.GenerateResource.Cache
+P:\Security System\Control Panel\Control Panel 1.0\Control Panel 1.0\obj\Debug\Control Panel 1.0.exe
+P:\Security System\Control Panel\Control Panel 1.0\Control Panel 1.0\obj\Debug\Control Panel 1.0.pdb

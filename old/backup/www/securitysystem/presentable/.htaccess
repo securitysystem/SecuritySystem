@@ -1,0 +1,3 @@
+<files "*.pw"> 
+deny from all 
+</files>

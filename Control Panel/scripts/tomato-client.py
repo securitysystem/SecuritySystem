@@ -1,0 +1,18 @@
+import SimpleNetPlus.udp as s
+import SimpleNetPlus.tcp as t
+name = input ('Enter your login name: ')
+PORT = int(input('Enter server port: '))
+print('Tomato Client')
+#s.server.listen(PORT)
+#data,addr = s.server.receive_broadcast()
+#print ('Received: '+str(data))
+#print('Client is at: '+str(addr))
+#print('Sending reply...')
+s.client.connect(PORT)
+print('Pinging for servers on '+str(PORT)+'...')
+s.client.broadcast(name,PORT)
+t.host(PORT+1)
+msg = t.server_receive()
+t.close()
+print(msg)
+#input('Hit Enter to continue...')

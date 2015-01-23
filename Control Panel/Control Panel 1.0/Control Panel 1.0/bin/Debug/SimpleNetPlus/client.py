@@ -1,0 +1,13 @@
+#UDP client broadcasts to server(s)
+import socket
+
+address = ('<broadcast>', 54545)
+client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+client_socket.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
+
+data = socket.getfqdn()+" pinging..."
+client_socket.sendto(str.encode(data), address)
+while True:
+    recv_data, addr = client_socket.recvfrom(2048)
+    str_data = bytes.decode(recv_data)
+    print (addr,str_data)
